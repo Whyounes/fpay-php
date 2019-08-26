@@ -1,0 +1,12 @@
+/node_modules
+/vendor
+/.idea
+/.vagrant
+/.vscode
+.phpstorm.meta.php
+_ide_helper.php
+yarn-error.log
+.php_cs.cache
+.DS_Store
+.env
+!.gitignore

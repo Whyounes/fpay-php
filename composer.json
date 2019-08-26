@@ -1,0 +1,23 @@
+{
+  "name": "youcan/fpay-php",
+  "description": "YouCan FPay PHP",
+  "autoload": {
+    "psr-4": {
+      "YouCan\\FPay\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "illuminate/support": "^5.8"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YouCan\\FPay\\Providers\\LaravelProvider"
+      ]
+    }
+  }
+}
